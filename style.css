@@ -1,0 +1,28 @@
+html, body{
+    min-height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+svg{
+    background-color: whitesmoke;
+    margin: 10px;
+}
+#legend {
+    width: 300px;
+    height: 100px;
+    padding: 10;
+}
+#fill {
+    width: 10%;
+    height: 35%;
+ }
+ #tooltip {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+ }
+ 
